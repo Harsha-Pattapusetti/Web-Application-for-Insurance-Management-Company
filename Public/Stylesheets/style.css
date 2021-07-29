@@ -1,0 +1,179 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height:100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  margin: 0 0 10px 0;
+  padding: 0;
+  background: #660000;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  padding: 5px;
+  font-size: 20px;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
+  text-align: center;
+}
+
+navigation {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+navigation ul {
+  width: 100%	;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+navigation ul li {
+  display: inline;
+  margin-right: 1em;
+}
+
+#content {
+  width: 920px;
+  min-height: 500px;
+  padding: 0 30px;
+  margin:auto;
+}
+
+footer {
+  width: 100%;
+  height: 30px;
+  background: #660000;	
+  margin: 0 0 10px 0;
+  padding: 10px 20px;
+  
+  color: white;
+}
+
+/* Actions */
+
+.actions {
+  margin-bottom: 1em;
+}
+
+
+/* Lists */
+
+table {
+  border-collapse: collapse;
+  vertical-align: top;
+}
+
+table.list {
+  width: 100%;
+}
+
+table.list tr td {
+  border: 1px solid #999999;
+}
+
+table.list tr th {
+  border: 1px solid #660000;
+  background: #660000;
+  color: white;
+  text-align: left;
+}
+
+/* Forms */
+
+body {font-family: Arial, Helvetica, sans-serif;}
+form 
+{
+	box-shadow: 3px 3px 3px 3px #CCC;
+    padding: 20px 80px;
+    width: fit-content;
+}
+
+.card{
+	box-shadow: 3px 3px 3px 3px #CCC;
+    padding: 20px 80px;
+    width: fit-content;
+	margin:auto;
+	margin-bottom:30px;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 200px;
+  padding: 12px 20px;
+  margin: 15px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #E06666;
+  color: white;
+  padding: 10px 10px;
+  margin: 20px 0;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 10px;
+  background-color: #f44336;
+}
+
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+/* Errors */
+
+.errors {
+  display: inline-block;
+  border: 2px solid red;
+  color: red;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.errors ul {
+  margin-bottom: 0;
+  padding-left: 1em;
+}
+
+<?php include(DESIGN_PATH . '/header.php'); ?>
